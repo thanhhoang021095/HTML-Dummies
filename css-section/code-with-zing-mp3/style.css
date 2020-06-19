@@ -1,0 +1,102 @@
+body {
+	font-family: Roboto,sans-serif;
+}
+.weekly-list{
+	background: rgb(50,50,61);
+	padding: 20px 7px;
+}
+.weekly-rank-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin:0px;
+	padding: 10px;
+	/*background: rgba(75,0,130,1);*/
+}
+
+.weekly-rank-item:hover {
+	background:rgba(120,120,120,0.8);
+	border-radius: 5px;
+}
+
+.song-content {
+	flex-grow: 1;
+}
+.rank-number {
+	color: #4A90E2;
+	font-weight: 700;
+	font-size: 20px;
+	padding:0 10px;
+	padding-left: 0px
+}
+
+.song-name {
+	color: #FFF;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+
+.singer {
+	color: #FFF;
+	font-size: 12px;
+}
+.subscribe-percent {
+	color: #4A90E2;
+	font-size: 16px;
+}
+
+.album-list {
+	margin:20px 0px;
+	width: 225px;
+	height: 225px;
+	background-image: url("https://hdwallsource.com/img/2018/3/camila-cabello-wallpaper-background-64577-66766-hd-wallpapers.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 80px;
+}
+/*.album-content {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 80px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+*/.overlay {
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	display:flex;
+	align-items: flex-end;
+	justify-content: center;
+	box-sizing: border-box;
+	padding-bottom: 20px;
+	padding-left: 8px;
+	color: #FFF;
+	opacity: 0;
+}
+
+.overlay:hover {
+	opacity: 1;
+}
+.album-content {
+	font-size: 33px;
+	font-weight: 600;	
+}
+.album-content > span {
+	display: block
+}
+.album-content > span:first-child {
+	letter-spacing: 25px;
+	font-size: 13px;
+	font-family: 
+}
+.album-content .top-100 {
+	font-size: 46px !important;
+}
+
+/*.far .fa-play-circle {
+}*/

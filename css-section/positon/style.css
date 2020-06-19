@@ -1,0 +1,28 @@
+.album {
+	background: url("https://www.zmonline.com/media/19082018/top100-of-the-decade.png?mode=crop&width=620&height=349&quality=60&scale=both") center center / cover no-repeat;
+	height: 200px;
+	width: 50%;
+}
+
+.overlay {
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	transition: all 0.5s;
+	color: #FFF;
+}
+
+.album .overlay img{
+	transform: scale(0.5);
+	transition: all 0.3s;
+}
+.album .overlay img:hover {
+	transform: scale(1);
+}
+.overlay:hover {
+	opacity: 1;
+}
